@@ -18,7 +18,6 @@ public class MenuUtama extends AppCompatActivity {
 
         btnengland = findViewById(R.id.btnengland);
         btnlaliga = findViewById(R.id.btnlaliga);
-        btnschedule = findViewById(R.id.btnschedule);
 
         btnengland.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,14 +35,8 @@ public class MenuUtama extends AppCompatActivity {
             }
         });
 
-        btnschedule.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MenuUtama.this, Schedule.class);
-                startActivity(intent);
-            }
-        });
+        };
     }
 
 
-}
+

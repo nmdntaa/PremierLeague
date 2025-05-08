@@ -5,7 +5,7 @@ public class Team {
     private String strStadium;
     private String strBadge;
 
-    public Team( String strTeam, String strStadium, String strBadge){
+    public Team(String strTeam, String strStadium, String strBadge){
         this.strStadium=strStadium;
         this.strTeam=strTeam;
         this.strBadge=strBadge;
